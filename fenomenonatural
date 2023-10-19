@@ -1,0 +1,20 @@
+public class Fenomenonatural {
+    private String nome;
+    private int intensidade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIntensidade() {
+        return intensidade;
+    }
+
+    public void setIntensidade(int intensidade) {
+        this.intensidade = intensidade;
+    }
+}
