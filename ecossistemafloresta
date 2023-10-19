@@ -1,7 +1,7 @@
 public class Ecossistemafloresta {
     public static void main(String[] args) {
         // Criando uma árvore e definindo suas propriedades
-        Arvore arvore1 = new Fruto();
+        Arvore arvore1 = new Arvore();
         arvore1.setEspecie("Carvalho");
         arvore1.setIdade(50);
 
