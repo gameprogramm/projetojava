@@ -1,0 +1,32 @@
+public class Ecossistemafloresta {
+    public static void main(String[] args) {
+        // Criando uma árvore e definindo suas propriedades
+        Arvore arvore1 = new Fruto();
+        arvore1.setEspecie("Carvalho");
+        arvore1.setIdade(50);
+
+        // Criando um animal e definindo suas propriedades
+        Animal animal1 = new Animal();
+        animal1.setNome("Cervo");
+        animal1.setIdade(5);
+
+        // Criando um fruto e definindo suas propriedades
+        Fruto fruto1 = new Fruto();
+        fruto1.setNome("Maçã");
+        fruto1.setComestivel(true);
+
+        // Criando um fenômeno natural e definindo suas propriedades
+        Fenomenonatural fenomeno1 = new Fenomenonatural();
+        fenomeno1.setNome("Chuva");
+        fenomeno1.setIntensidade(3);
+
+        // Imprimindo informações sobre os elementos do ecossistema
+        System.out.println("Árvore: Espécie - " + arvore1.getEspecie() + ", Idade - " + arvore1.getIdade());
+        System.out.println("Animal: Nome - " + animal1.getNome() + ", Idade - " + animal1.getIdade());
+        System.out.println("Fruto: Nome - " + fruto1.getNome() + ", Comestível - " + fruto1.isComestivel());
+        System.out.println("Fenômeno Natural: Nome - " + fenomeno1.getNome() + ", Intensidade - " + fenomeno1.getIntensidade());
+    }
+    }
+
+JOAO LUCAS VILELA NUNES 
+01658645
